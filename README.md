@@ -1,14 +1,12 @@
 # Quiz App
 
-## Template usage
+## Project Structure
 
-_Don't forget to update the author (and more) in the package.json_
+### HTML
 
-## Installation
+HTML files will be found in the root of the project.
 
-```shell
-$ git clone <project-url>
-$ cd quiz-app
-$ npm i # install all dependencies
-$ npm test # run tests
-```
+### CSS
+
+Styles are found in the `/styles` folder. Files prefixed with `_` will be considered
+files that will be imported in other .css files.
